@@ -1,0 +1,192 @@
+{
+  "lists": [
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "id": 3,
+      "name": "Фильмы и сериалы",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Книги",
+      "colorId": 2
+    },
+    {
+      "name": "b",
+      "colorId": 3,
+      "id": 5
+    },
+    {
+      "name": "bdfbd",
+      "colorId": 1,
+      "id": 6
+    },
+    {
+      "name": "safasf",
+      "colorId": 4,
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Изучить JavaScript",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "Изучить паттерны проектирования",
+      "completed": false
+    },
+    {
+      "listId": 4,
+      "text": "Купить 1984!",
+      "completed": true,
+      "id": 10
+    },
+    {
+      "listId": "2",
+      "text": "Data",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "listId": "3",
+      "text": "data",
+      "completed": false,
+      "id": 16
+    },
+    {
+      "listId": 3,
+      "text": "Exampleeeb",
+      "completed": false,
+      "id": 17
+    },
+    {
+      "listId": 3,
+      "text": "ff",
+      "completed": false,
+      "id": 18
+    },
+    {
+      "listId": 4,
+      "text": "safest",
+      "completed": false,
+      "id": 19
+    },
+    {
+      "listId": 4,
+      "text": "Assad",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "listId": 4,
+      "text": "afafasf",
+      "completed": false,
+      "id": 21
+    },
+    {
+      "listId": 3,
+      "text": "nnn",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "listId": 3,
+      "text": "nnn",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "listId": 3,
+      "text": "safas",
+      "completed": false,
+      "id": 27
+    },
+    {
+      "listId": 4,
+      "text": "asfa",
+      "completed": false,
+      "id": 30
+    },
+    {
+      "listId": 4,
+      "text": "asfad",
+      "completed": false,
+      "id": 31
+    },
+    {
+      "listId": 3,
+      "text": "asfafdada",
+      "completed": false,
+      "id": 32
+    },
+    {
+      "listId": 6,
+      "text": "asfa",
+      "completed": false,
+      "id": 33
+    },
+    {
+      "listId": 6,
+      "text": "mmm",
+      "completed": false,
+      "id": 34
+    },
+    {
+      "listId": 6,
+      "text": "nnn",
+      "completed": false,
+      "id": 35
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}

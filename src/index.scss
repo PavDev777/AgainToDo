@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.field {
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+  font-size: 1.4rem;
+  &:focus {
+    border-color: #ebebeb;
+  }
+}
+
+.button {
+  background: #4dd599;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 5px 10px 0 0;
+  &.button-cancel {
+    background: grey;
+    &:hover {
+      background: darken($color: grey, $amount: 10%);
+    }
+    &:active {
+      background: darken($color: grey, $amount: 15%);
+    }
+  }
+  &:hover {
+    background: #3aa175;
+  }
+  &:active {
+    background: darken($color: #3aa175, $amount: 10%);
+  }
+  
+}
+
+p {
+  font-size: 1.4rem;
+}

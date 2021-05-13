@@ -1,0 +1,26 @@
+.todo {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: calc(100vw - 500px);
+  height: calc(100vh - 100px);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 20px #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid #e1e5e9;
+  overflow: hidden;
+}
+
+.todo__sidebar {
+  background-color: #e0e5e9;
+  width: 200px;
+  border-right: 1px solid #f1f1f1;
+  padding: 60px 20px;
+}
+
+.todo__tasks {
+  flex: 1;
+  padding: 60px;
+  overflow-y: scroll;
+}
